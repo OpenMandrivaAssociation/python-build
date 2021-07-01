@@ -2,7 +2,7 @@
 %global pypi_name build
 
 Name:           python-%{pypi_name}
-Version:        0.1.0
+Version:        0.4.0
 Release:        1
 Summary:        A simple, correct PEP517 package builder
 Group:          Development/Python
@@ -17,6 +17,7 @@ BuildRequires:  python3dist(setuptools)
 BuildRequires:  python3dist(sphinx)
 BuildRequires:  python3dist(sphinx-autodoc-typehints)
 BuildRequires:  python3dist(sphinxcontrib-autoprogram)
+BuildRequires:  python3dist(pep517)
 
 %description
 Simple,
