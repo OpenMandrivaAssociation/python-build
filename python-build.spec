@@ -2,7 +2,7 @@
 %global pypi_name build
 
 Name:           python-%{pypi_name}
-Version:        0.4.0
+Version:        0.5.1
 Release:        1
 Summary:        A simple, correct PEP517 package builder
 Group:          Development/Python
@@ -38,5 +38,5 @@ rm -rf %{pypi_name}.egg-info
 %license LICENSE
 %doc README.md
 %{_bindir}/pyproject-build
-%{python3_sitelib}/%{pypi_name}/
+%{python3_sitelib}/%{pypi_name}
 %{python3_sitelib}/%{pypi_name}-%{version}-py%{python3_version}.egg-info
