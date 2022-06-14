@@ -1,22 +1,18 @@
-# Created by pyp2rpm-3.3.5
 %global pypi_name build
 
 Name:           python-%{pypi_name}
-Version:        0.5.1
+Version:        0.8.0
 Release:        1
 Summary:        A simple, correct PEP517 package builder
 Group:          Development/Python
 License:        MIT
-URL:            None
-Source0:        %{pypi_name}-%{version}.tar.gz
+URL:            https://pypi.org/project/build/
+Source0:        https://files.pythonhosted.org/packages/source/b/build/%{pypi_name}-%{version}.tar.gz
 BuildArch:      noarch
 
 BuildRequires:  python3-devel
-BuildRequires:  python3dist(furo)
 BuildRequires:  python3dist(setuptools)
-BuildRequires:  python3dist(sphinx)
-BuildRequires:  python3dist(sphinx-autodoc-typehints)
-BuildRequires:  python3dist(sphinxcontrib-autoprogram)
+BuildRequires:  python3dist(packaging)
 BuildRequires:  python3dist(pep517)
 
 %description
