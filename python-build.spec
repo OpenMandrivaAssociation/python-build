@@ -10,14 +10,13 @@ URL:            https://pypi.org/project/build/
 Source0:        https://files.pythonhosted.org/packages/source/b/build/%{pypi_name}-%{version}.tar.gz
 BuildArch:      noarch
 
-BuildRequires:  python3-devel
-BuildRequires:  python3dist(setuptools)
-BuildRequires:  python3dist(packaging)
-BuildRequires:  python3dist(pep517)
+BuildRequires:  python-devel
+BuildRequires:  python%{py_ver}dist(setuptools)
+BuildRequires:  python%{py_ver}dist(packaging)
+BuildRequires:  python%{py_ver}dist(pep517)
 
 %description
-Simple,
-correct PEP517 package builder.See the documentation for more information.
+Simple, correct PEP517 package builder.
 
 %prep
 %autosetup -n %{pypi_name}-%{version}
