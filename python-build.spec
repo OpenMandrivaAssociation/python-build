@@ -20,8 +20,6 @@ Simple, correct PEP517 package builder.
 
 %prep
 %autosetup -n %{pypi_name}-%{version}
-# Remove bundled egg-info
-rm -rf %{pypi_name}.egg-info
 
 %build
 %py3_build
@@ -34,4 +32,4 @@ rm -rf %{pypi_name}.egg-info
 %doc README.md
 %{_bindir}/pyproject-build
 %{python3_sitelib}/%{pypi_name}
-%{python3_sitelib}/%{pypi_name}-%{version}-py%{python3_version}.egg-info
+%{python3_sitelib}/%{pypi_name}*.dist-info
