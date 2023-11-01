@@ -1,8 +1,8 @@
 %global pypi_name build
 
 Name:           python-%{pypi_name}
-Version:        0.10.0
-Release:        2
+Version:        1.0.3
+Release:        1
 Summary:        A simple, correct PEP517 package builder
 Group:          Development/Python
 License:        MIT
