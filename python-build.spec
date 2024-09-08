@@ -1,7 +1,7 @@
 %global pypi_name build
 
 Name:           python-%{pypi_name}
-Version:        1.2.1
+Version:        1.2.2
 Release:        1
 Summary:        A simple, correct PEP517 package builder
 Group:          Development/Python
