@@ -2,7 +2,7 @@
 
 Name:           python-%{pypi_name}
 Version:        1.2.2.post1
-Release:        2
+Release:        3
 Summary:        A simple, correct PEP517 package builder
 Group:          Development/Python
 License:        MIT
