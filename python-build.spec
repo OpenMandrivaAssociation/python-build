@@ -1,7 +1,7 @@
 %global module build
 
 Name:           python-build
-Version:        1.4.0
+Version:        1.4.2
 Release:        1
 Summary:        A simple, correct PEP517 package builder
 Group:          Development/Python
