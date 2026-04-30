@@ -1,7 +1,7 @@
 %define module build
 
 Name:           python-build
-Version:        1.4.4
+Version:        1.5.0
 Release:        1
 Summary:        A simple, correct PEP517 package builder
 Group:          Development/Python
